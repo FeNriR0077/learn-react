@@ -32,6 +32,7 @@ const Cities = () => {
             <h1>Cities to visit</h1>
             
             <DisplayCities cityNames={cityNames}/>
+            <p className="input-info">(Shows error when blank field is sent)</p>
             <AddCities handleSubmit= {handleSubmit} />
             {alert}
         </div>

@@ -48,6 +48,13 @@ header, h1, label{
   transition: all ease-in-out .2s;
 }
 
+.input-info{
+ text-align: center;
+ margin-top: 1rem;
+ color: rgb(235, 143, 32);
+ font-weight: 500;
+}
+
 .adding-cities {
   display: flex;
   justify-content: center;
