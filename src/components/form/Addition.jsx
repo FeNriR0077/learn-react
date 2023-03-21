@@ -4,7 +4,7 @@ const Addition = ({firstNum, secondNum}) => {
 
     return (
         <p className="sum-of-numbers"> 
-            Sum of {firstNum} and {secondNum} is {sum ? sum : "?"}.
+            Sum of <span className="numbers">{firstNum ? firstNum : "firstNumber"}</span> and <span className="numbers">{secondNum ? secondNum : "secondNumber"}</span> is <span className="numbers">{sum ? sum : "?"}</span>.
         </p>
     );
 }
